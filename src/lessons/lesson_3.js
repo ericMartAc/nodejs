@@ -16,5 +16,5 @@ module.exports = (frist, second, personas) => {
         f1(frist,second,personas)
     } else {
         console.log('usuario invalido')
-    }
+    } 
 }
