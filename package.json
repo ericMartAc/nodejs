@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src"
+    "dev": "nodemon src",
+    "deb": "node --inspect src"
   },
   "repository": {
     "type": "git",

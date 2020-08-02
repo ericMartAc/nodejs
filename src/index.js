@@ -6,6 +6,7 @@ const path = require('path')
 const less_2 = require('./lessons/lesson_2')
 const less_2_1 = require('./lessons/lesson_2_1')
 const less_3 = require('./lessons/lesson_3')
+const less_4 = require('./lessons/lesson_4')
 
 //datos
 const rutas = {
@@ -32,4 +33,5 @@ let personas = [
 //less_1(rutas)
 //less_2(rutas)
 //less_2_1(rutas)
-less_3(frist, second, personas)
+//less_3(frist, second, personas)
+less_4()
