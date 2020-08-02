@@ -1,6 +1,6 @@
-module.exports = function mostrar_usuario(usuario) {
+module.exports = function mostrar_usuario(archivo, usuario) {
     const fs = require('fs')
-    fs.appendFile('prueba_ej3.json', JSON.stringify(usuario), (error) => {
+    fs.appendFile(archivo, JSON.stringify(usuario), (error) => {
         if (error) {
             console.log('error creando prueba_ej3.json')
         } else {
