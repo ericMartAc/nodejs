@@ -1,11 +1,13 @@
-module.exports = () => {
-    var i = 0;
+let curso = 'node'
+curso = 'nodejs'
+curso = 'js'
 
-    setInterval(() => {
-        if (i < 5) {
-            console.log(i)
-        }
-        i++
-    }, 2000);
+debugger
+console.log(curso)
 
+x = () => {
+    debugger
+    return 2*3
 }
+
+console.log(x())
