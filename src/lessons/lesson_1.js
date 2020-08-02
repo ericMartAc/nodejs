@@ -4,13 +4,13 @@ const lesson1 = 'module exports and created files'
 const os = require('os')
 
 //modulos propios
-const creador_arch_1 = require('./modulos/creador_de_archivos/ej_1')
-const creador_arch_2 = require('./modulos/creador_de_archivos/ej_2')
-const creador_arch_3 = require('./modulos/creador_de_archivos/ej_3')
+const creador_arch_1 = require('../modulos/creador_de_archivos/ej_1')
+const creador_arch_2 = require('../modulos/creador_de_archivos/ej_2')
+const creador_arch_3 = require('../modulos/creador_de_archivos/ej_3')
 
-const ej_export_1 = require('./modulos/ej_exports/ej_1')
-const ej_export_2 = require('./modulos/ej_exports/ej_2')
-const ej_export_3 = require('./modulos/ej_exports/ej_3')
+const ej_export_1 = require('../modulos/ej_exports/ej_1')
+const ej_export_2 = require('../modulos/ej_exports/ej_2')
+const ej_export_3 = require('../modulos/ej_exports/ej_3')
 
 
 //ejecución de métodos
