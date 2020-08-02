@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "curso nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericMartAc/nodejs.git"
+  },
+  "author": "Eric MArtinez\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericMartAc/nodejs/issues"
+  },
+  "homepage": "https://github.com/ericMartAc/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
